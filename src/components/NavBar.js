@@ -9,7 +9,7 @@ const Navbar = () => {
       </li>
 
       <li>
-        <Link to="/about" style={{textDecoration: 'none'}}>About</Link>
+        <Link to="/form" style={{textDecoration: 'none'}}>Form</Link>
       </li>
       
       <li>

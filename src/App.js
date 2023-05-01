@@ -9,20 +9,20 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 
 import Home from './pages/Home';
-import About from './pages/About';
+import Form from './pages/Form';
 import Contact from './pages/Contact';
 
 function App() {
   return (
     <div className="App">
-        <h1>A Simple Crud Application</h1>
+        <h1>A Simple C.R.U.D Application</h1>
           
         <BrowserRouter>
           <NavBar />
 
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/form" element={<Form />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </BrowserRouter>
