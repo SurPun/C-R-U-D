@@ -12,3 +12,23 @@
   margin: 8px;
 }
 
+/* Info */
+.Container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.Info {
+  text-align: center;
+}
+
+.CrudList {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.CrudList li {
+  padding: 2.5px 0;
+}
